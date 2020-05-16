@@ -20,7 +20,7 @@
          message why the query failed. If it didn’t fail, print a message explaining why you were
          able to delete the row.
  3. Open this .java file in Eclipse
-    These are the instructions to run CS623PaperReviewProject.java:
+    These are the instructions to run:
       1. You need to pass arguments in order to specify your username and password.
          You can do this by { Run -> Run Configurations -> Arguments -> <Pass your arguments(Username Password)> }
          
