@@ -1,4 +1,37 @@
 # Database_MYSQL_Project_Part2
+
+## Queries
+
+The application runs following queries,
+
+1. Get paper id, title, abstract and author's email address, first name, last name of a submitted paper’s details by the author’s Primary Key.
+
+2. Get all reviews for a paper by the paper’s Id, where the paper was recommended to be published. The query returns the following data (columns): 
+   
+   - All columns from the Review table.
+
+3. Get count of all papers submitted.
+
+4. Creates a new paper submission and inserts records into both Author and Paper table.
+
+5. Tries to deletes the first “Author” row in your Author table by the author’s id.
+
+## Application design
+
+The application is modular and it is divided into following functions,
+
+   1. 
+
+   2.
+
+   3. 
+
+   4.
+
+   5.
+
+## Steps to run the application
+
 1. Download and import the [Paper_Review_Updated.sql](https://raw.githubusercontent.com/mitya367/Database_MYSQL_Project_Part2/master/Project%20Part%202/Paper_Review_Updated.sql) file.
    ( How to import .sql file to MYSQL server - https://www.youtube.com/watch?v=HYVW5RlM6b0 )
 
