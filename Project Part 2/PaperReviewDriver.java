@@ -184,13 +184,17 @@ public class PaperReviewDriver {
    public static void main(String[] args){
 	   Connection conn = null;
 	   
-	   if (args.length < 2) {
-		   System.out.println("DB Username and Password not specified");
-		   return;
-	   }
+	   String username = "";
+	   String password = "";
 	   
-	   String username = args[0];
-	   String password = args[1];
+	   if (args.length == 0) {
+		   System.out.println("DB Username and Password not specified, using empty values");
+	   } else if (args.length == 1) {
+		   username = args[0];
+	   } else if (args.length == 2) {
+		   username = args[0];
+		   password = args[1];		   
+	   }   
 
 	   try {
 		  Class.forName("com.mysql.cj.jdbc.Driver");
