@@ -1,5 +1,5 @@
 # Database_MYSQL_Project_Part2
-1. Download and import attached Paper_Review_Updated.sql file.
+1. Download and import attached [Paper_Review_Updated.sql]() file.
    ( How to import .sql file to MYSQL server - https://www.youtube.com/watch?v=HYVW5RlM6b0 )
    I have updated the database as per query requirement. The changes I have made are:
       1. Added another column named Author_Email in table paper as a constraint in order to JOIN table Author and table Paper.
