@@ -20,15 +20,15 @@ The application runs following queries,
 
 The application is modular and it is divided into following functions,
 
-   1. 
+   1. `GetPaperDetail`: It takes `Author Email` and executes a query to return paper details corresponding of that Author.
+   
+   2. `GetAllReviews`: It takes Id of the paper as an argument and returns it's reviews.
 
-   2.
+   3. `GetPaperCount`: It returns total number of papers.
 
-   3. 
+   4. `NewPaperSubmission`: It generates new record into author and paper table.
 
-   4.
-
-   5.
+   5. `FirstAuthorRowDeletion`: It tries to delete a row from author table using author's email.
 
 ## Steps to run the application
 
